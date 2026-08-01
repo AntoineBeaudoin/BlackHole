@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import BlackHoleSimulator from './components/BlackHoleSimulator.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <RouterView />
+  <BlackHoleSimulator/>
 </template>
 
 <style scoped>
